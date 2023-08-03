@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Enrollment Form</title>
+</head>
+<body>
+    <h2>Student Enrollment Form</h2>
+    <form id="enrollmentForm">
+        Roll No: <input type="text" id="rollNo" required><br>
+        Name: <input type="text" id="name" required><br>
+        Birthdate: <input type="date" id="birthdate" required><br>
+        Address: <input type="text" id="address" required><br>
+        Enrollment Number: <input type="text" id="enrollmentNumber" required><br>
+        <button type="button" onclick="saveStudent()">Save</button>
+        <button type="button" onclick="updateStudent()">Update</button>
+        <button type="button" onclick="deleteStudent()">Delete</button>
+        <button type="button" onclick="resetForm()">Reset</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
 
